@@ -71,7 +71,7 @@ dataset:
     pointcloud_seq_folder: pcl_seq
 
     input_type: depth_seq
-    half_seq_folder: depth_rotate45
+    depth_seq_folder: depth_rotate45
 
     img_seq_folder: img
     generation_interpolate: false
@@ -86,7 +86,7 @@ training:
 
   total_epoch: 1
   batch_size: 48
-  initialize_network_file: ["/mnt/hdd/new_CadeX/log/cadex_dfaust_w_pf/checkpoint/60.pt"]
+  initialize_network_file: ["/home/chang/Videos/huma/CaDeX/ckpt/partial_40.pt"]
   initialize_network_name: ["all"]
 
 evaluation:
@@ -98,11 +98,11 @@ evaluation:
 logging:
   log_dir: partial_test_us
   loggers: ["mesh", "image", "hist", "video", "xls"]
-  viz_training_batch_interval: 400 # 20
-  viz_nontrain_batch_interval: 100
-  viz_epoch_interval: 1
+  viz_training_batch_interval: 9999999 # 20
+  viz_nontrain_batch_interval: 9999999
+  viz_epoch_interval: 9999999
   checkpoint_epoch: 1
-  mesh_viz_interval: 3
+  mesh_viz_interval: 9999999
 
   model_select_metric: iou
   model_select_larger: true
