@@ -25,6 +25,6 @@ model:
   loss_corr: true
   loss_transform_forward: true
 training:
-  out_dir: out/partial_test_us
+  out_dir: out/partial_test_ui
 test:
   # model_file: /home/chang/Videos/huma/LPDC-Net/ckpt/half_10.pt
