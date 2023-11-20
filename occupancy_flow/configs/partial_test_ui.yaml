@@ -1,4 +1,5 @@
 data:
+  path: data/Humans
   input_type: depth_seq
   test_split: test_new_individual
   input_pointcloud_corresponding: false

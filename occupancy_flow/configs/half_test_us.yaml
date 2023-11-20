@@ -1,4 +1,5 @@
 data:
+  path: data/Humans
   input_type: half_seq
   test_split: test
   input_pointcloud_corresponding: false
