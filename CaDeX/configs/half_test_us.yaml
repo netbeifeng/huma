@@ -43,7 +43,7 @@ dataset:
     training_all_steps: false
     training_multi_files: false
 
-    path: /mnt/hdd/DFAUST/Humans
+    path: /home/chang/mnt/hdd/DFAUST/Humans
     # path: /tmp/leijh/Humans_multi
 
     dataset: Humans

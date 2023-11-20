@@ -1,0 +1,20 @@
+ninja_required_version = 1.3
+cxx = gcc
+
+cflags = -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Iim2mesh/utils/libvoxelize -I/home/chang/miniconda3/envs/lpdc/lib/python3.6/site-packages/numpy/core/include -I/home/chang/miniconda3/envs/lpdc/include/python3.6m -c
+post_cflags = -DTORCH_API_INCLUDE_EXTENSION_H -DTORCH_EXTENSION_NAME=voxelize -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++14
+ldflags = 
+
+rule compile
+  command = $cxx -MMD -MF $out.d $cflags -c $in -o $out $post_cflags
+  depfile = $out.d
+  deps = gcc
+
+
+
+build /home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libvoxelize/voxelize.o: compile /home/chang/Videos/huma/LPDC-Net/im2mesh/utils/libvoxelize/voxelize.c
+
+
+
+
+

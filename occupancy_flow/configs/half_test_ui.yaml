@@ -1,5 +1,5 @@
 data:
-  path: data/Humans
+  path: /home/chang/mnt/hdd/DFAUST/Humans
   input_type: half_seq
   test_split: test_new_individual
   input_pointcloud_corresponding: true
@@ -7,4 +7,4 @@ data:
 training:
   out_dir:  out/half_test_ui
 test:
-  model_file: /home/chang/Videos/human/occupancy_flow/ckpt/half_10.pt
+  model_file: /home/chang/Videos/huma/occupancy_flow/ckpt/half_10.pt

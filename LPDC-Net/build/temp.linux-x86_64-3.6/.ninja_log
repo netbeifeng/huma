@@ -1,0 +1,10 @@
+# ninja log v5
+0	209	1700505026545102185	/home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libkdtree/pykdtree/_kdtree_core.o	deaae19d2e1e753f
+0	1044	1700505027381120355	/home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libkdtree/pykdtree/kdtree.o	b08136b18264974d
+0	101	1700505027513123226	/home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libmcubes/marchingcubes.o	a1211be94358fca0
+0	505	1700505027917132006	/home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libmcubes/pywrapper.o	710c77f282323e29
+0	521	1700505027933132354	/home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libmcubes/mcubes.o	599de4cb8c22e8c6
+0	2387	1700505030345184782	/home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libmesh/triangle_hash.o	6de0bc29ed38e19a
+1	2751	1700505033141245556	/home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libmise/mise.o	3ccf3e0c14e7505f
+0	3023	1700505036201312069	/home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libsimplify/simplify_mesh.o	f328e41b41606b57
+0	2041	1700505038457361107	/home/chang/Videos/huma/LPDC-Net/build/temp.linux-x86_64-3.6/im2mesh/utils/libvoxelize/voxelize.o	fc4136b37a5067f7

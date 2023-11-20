@@ -1,4 +1,5 @@
 data:
+  path: /home/chang/mnt/hdd/DFAUST/Humans
   path: data/Humans
   input_type: depth_seq
   test_split: test_new_individual

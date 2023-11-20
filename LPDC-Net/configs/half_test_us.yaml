@@ -1,11 +1,10 @@
 method: lpdc
 data:
+  path: /home/chang/mnt/hdd/DFAUST/Humans
   input_type: pcl_seq
   pointcloud_seq_folder: pcl_seq
   test_split: test
   n_intervals: 1
-  select_steps: [0,10,19,29,44,49]
-  length_sequence: 50
   pointcloud_seq_incomplete_folder: pcl_half_seq
   completion: true
 model:
