@@ -1,0 +1,9 @@
+data:
+  input_type: half_seq
+  test_split: test_new_individual
+  input_pointcloud_corresponding: false
+  half_seq_folder: pcl_half_seq
+training:
+  out_dir:  out/half_test_ui
+test:
+  model_file: /home/chang/Videos/human/occupancy_flow/ckpt/half_10.pt

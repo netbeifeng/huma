@@ -1,0 +1,9 @@
+data:
+  input_type: depth_seq
+  test_split: test
+  input_pointcloud_corresponding: false
+  half_seq_folder: depth_rotate45
+training:
+  out_dir:  out/partial_test_us
+test:
+  model_file: /home/chang/Videos/human/occupancy_flow/ckpt/partial_57.pt
