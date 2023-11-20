@@ -1,0 +1,30 @@
+method: lpdc
+data:
+  input_type: pcl_seq
+  pointcloud_seq_folder: pcl_seq
+  test_split: test
+  n_intervals: 1
+  select_steps: [0,10,19,29,44,49]
+  length_sequence: 50
+  pointcloud_seq_incomplete_folder: depth_rotate45
+  completion: true
+model:
+  encoder: 
+  encoder_kwargs:
+    hidden_dim: 128
+  encoder_temporal: pointnet_spatiotemporal
+  encoder_temporal_kwargs:
+    hidden_dim: 128
+  decoder: simple_local
+  decoder_kwargs:
+    hidden_size: 128
+  velocity_field: concat
+  velocity_field_kwargs:
+    hidden_size: 128
+  c_dim: 128
+  loss_corr: true
+  loss_transform_forward: true
+training:
+  out_dir: out/partial_test_us
+test:
+  # model_file: /home/chang/Videos/huma/LPDC-Net/ckpt/half_10.pt
