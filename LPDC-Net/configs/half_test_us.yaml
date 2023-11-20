@@ -1,5 +1,7 @@
 method: lpdc
 data:
+  input_type: pcl_seq
+  pointcloud_seq_folder: pcl_seq
   test_split: test
   n_intervals: 1
   select_steps: [0,10,19,29,44,49]
